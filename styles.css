@@ -1,0 +1,47 @@
+/* -------------------------------- */
+.container-fluid {
+  background-color: #FFC107;
+}
+
+.container-header {
+  padding-top: 26px;
+  padding-bottom: 26px;
+}
+
+.container-header .img-search {
+  position: absolute;
+  right: 55px;
+  top: 12px;
+}
+
+.container-header .nav-section-menu ul {
+  margin-right: 43px;
+}
+
+.container-header .search-box {
+  width: 636px;
+  height: 44px;
+  border: none;
+  border-radius: 50px;
+  padding-left: 20px;
+  font-size: 16px;
+  line-height: 19px;
+  font-family: Roboto;
+  color: #707070;
+}
+
+.container-header .login-menu a {
+  font-family: Roboto;
+  color: #707070;
+}
+
+.color-menu {
+  background-color: #707070;
+}
+
+.container-menu {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/*# sourceMappingURL=styles.css.map */

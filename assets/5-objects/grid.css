@@ -1,0 +1,68 @@
+/* Ver. 1.0 */
+
+/* Conceito Mobile First usado */
+
+/* Primeiramente ultilize um reset, para ter o mesmo 
+comportamento em todos os browsers */
+
+/* Primeiramente vamos criar um Container
+para envolver todos os elementos e alinhalos ao centro da tela */
+
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+}
+
+    @media (min-width: 1170px) {
+        .container {
+            max-width: 1170px;
+            padding: 0;
+        }
+    }
+
+/* Linha tem como objetivo resetar o padding do primeiro
+elemento da esquerda e o ultimo da direita, pois se não
+os primeiros elementos ficarão desalinhados */
+
+.row {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+/* Com essas duas linhas abaixo evitamos que nosso conteudo
+seja maior que a linha e que flutue em volta de nossas linhas */
+
+.row:before,
+.row:after {
+    content: "";
+    display: table;
+}
+
+.row:after {
+    clear: both;
+}
+
+/* Colunas criamos primeiramente a classe base e depois vamos
+dando suporte à quantidade de colunas desejada */
+.col {
+    display: inline-block;/* Queremos que ele tenha as propriedades de um elemento block, porém que se comporte como um inline */
+/* Inline block coloca por default um margin no elemento, devemos resetar */
+    margin-right: -4px;
+    align-items: top;
+    min-height: 1px;
+    padding-left: 5px;/* Mesmo espaçamento da linha, se alterar um o outro também deve ser mudado */
+    padding-right: 5px;
+    width: 100%; /* Como estamos criando mobile first, devemos utilizar o 100% para ter somente uma coluna */
+}
+
+/* Duas colunas */
+@media (min-width: 448px) {
+    .col-2 {
+        width: 50%;
+    }
+}
+
+.teste {
+    background-color: red;
+}
