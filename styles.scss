@@ -1,7 +1,7 @@
 $color-default: #FFC107;
 $color-secondary: #707070;
 
-@mixin font-default {
+%font-default {
     font-family: Roboto;
     color: $color-secondary;
 }
@@ -19,6 +19,7 @@ $color-secondary: #707070;
 }
 
 .container-header {
+    /* Olhar esse sass, as vezes nem precisa desse mixin */
     @include padding-padrao;
 }
 
@@ -41,11 +42,11 @@ $color-secondary: #707070;
 
     font-size: 16px;
     line-height: 19px;
-    @include font-default;
+    @extend %font-default;
 }
 
 .container-header .login-menu a {
-    @include font-default;
+    @extend %font-default;
 }
 
 .color-menu {
@@ -55,4 +56,30 @@ $color-secondary: #707070;
 .container-menu {
     padding-top: 15px;
     padding-bottom: 15px;
+}
+
+.container-payment {
+    margin-top: 42px;
+}
+
+.container-payment .align-parcelas {
+    padding-left: 6px;
+}
+
+.container-payment .align-frete {
+    text-align: right;
+    padding-right: 6px;
+}
+
+.container-popular {
+    margin-top: 30px;
+}
+
+.container-popular h2 {
+    @extend %font-default;
+    
+    font-style: normal;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 30px;
 }

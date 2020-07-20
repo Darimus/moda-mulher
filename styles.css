@@ -1,9 +1,16 @@
+.container-popular h2, .container-header .login-menu a, .container-header .search-box {
+  font-family: Roboto;
+  color: #707070;
+}
+
 /* -------------------------------- */
 .container-fluid {
   background-color: #FFC107;
 }
 
+/* Header */
 .container-header {
+  /* Olhar esse sass, as vezes nem precisa desse mixin */
   padding-top: 26px;
   padding-bottom: 26px;
 }
@@ -26,15 +33,10 @@
   padding-left: 20px;
   font-size: 16px;
   line-height: 19px;
-  font-family: Roboto;
-  color: #707070;
 }
+/* Fim Header */
 
-.container-header .login-menu a {
-  font-family: Roboto;
-  color: #707070;
-}
-
+/* Menu */
 .color-menu {
   background-color: #707070;
 }
@@ -43,5 +45,34 @@
   padding-top: 15px;
   padding-bottom: 15px;
 }
+/* Fim Menu */
+
+/* Payment */
+.container-payment {
+  margin-top: 42px;
+}
+
+.container-payment .align-parcelas {
+  padding-left: 6px;
+}
+
+.container-payment .align-frete {
+  text-align: right;
+  padding-right: 6px;
+}
+/* Fim Payment */
+
+/* Popular */
+.container-popular {
+  margin-top: 30px;
+}
+
+.container-popular h2 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 30px;
+}
+/* Fim Popular */
 
 /*# sourceMappingURL=styles.css.map */
