@@ -1,29 +1,35 @@
 /* -------------------------------- */
+/* line 10, styles.scss */
 html, * {
   font-family: Roboto;
   color: #707070;
 }
 
+/* line 15, styles.scss */
 .container-fluid {
   background-color: #FFC107;
 }
 
+/* line 19, styles.scss */
 .container-header {
   /* Olhar esse sass, as vezes nem precisa desse mixin */
   padding-top: 26px;
   padding-bottom: 26px;
 }
 
+/* line 24, styles.scss */
 .container-header .img-search {
   position: absolute;
   right: 55px;
   top: 12px;
 }
 
+/* line 30, styles.scss */
 .container-header .nav-section-menu ul {
   margin-right: 43px;
 }
 
+/* line 34, styles.scss */
 .container-header .search-box {
   width: 636px;
   height: 44px;
@@ -34,27 +40,33 @@ html, * {
   line-height: 19px;
 }
 
+/* line 45, styles.scss */
 .color-menu {
   background-color: #707070;
 }
 
+/* line 49, styles.scss */
 .container-menu {
   padding-top: 15px;
   padding-bottom: 15px;
 }
 
+/* line 54, styles.scss */
 .container-payment {
   margin-top: 42px;
 }
 
+/* line 58, styles.scss */
 .container-payment .align-frete {
   text-align: right;
 }
 
+/* line 62, styles.scss */
 .container-popular {
   margin-top: 30px;
 }
 
+/* line 66, styles.scss */
 .container-popular h2 {
   font-style: normal;
   font-weight: 900;
@@ -62,8 +74,28 @@ html, * {
   line-height: 30px;
 }
 
-.container-popular .container-products {
+/* line 73, styles.scss */
+.container-popular > .container-products {
   margin-top: 30px;
 }
 
-/*# sourceMappingURL=styles.css.map */
+/* line 77, styles.scss */
+.container-popular > .container-products figcaption {
+  margin-top: 9.7px;
+}
+
+/* line 81, styles.scss */
+.container-popular .checked {
+  margin-top: 5px;
+  color: orange;
+}
+
+/* line 86, styles.scss */
+.container-popular .btn-see-more {
+  width: 159px;
+  height: 34px;
+  margin-top: 42px;
+  background: #FFC107;
+  border-radius: 4px;
+  border: 0;
+}

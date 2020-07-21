@@ -70,6 +70,24 @@ html, * {
     line-height: 30px;
 }
 
-.container-popular .container-products {
+.container-popular > .container-products {
     margin-top: 30px;
+}
+
+.container-popular > .container-products figcaption {
+    margin-top: 9.7px;
+}
+
+.container-popular .checked {
+    margin-top: 5px;
+    color: orange;
+}
+
+.container-popular .btn-see-more {
+    width: 159px;
+    height: 34px;
+    margin-top: 42px;
+    background: #FFC107;
+    border-radius: 4px;
+    border: 0;
 }
