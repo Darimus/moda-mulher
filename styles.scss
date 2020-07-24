@@ -1,5 +1,5 @@
 $color-default: #FFC107;
-$color-secondary: #707070;
+$color-secondary: #343A40;
 
 @mixin padding-padrao { 
     padding-top: 26px;
@@ -74,8 +74,18 @@ html, * {
     margin-top: 30px;
 }
 
-.container-popular > .container-products figcaption {
+.container-popular > .container-products figcaption, p {
+    color: $color-secondary;
     margin-top: 9.7px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 22px;
+}
+
+.container-popular > .container-products p {
+    margin-top: 5px;
+    font-size: 16px;
 }
 
 .container-popular .checked {
