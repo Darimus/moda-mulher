@@ -1,0 +1,28 @@
+@import ../2-tools/mixinVariavel;
+
+.container-footer {
+    margin-top: 47px;
+}
+
+.container-footer .color-heading-footer {
+    color: $color-default;
+    margin-top: 26px;
+    margin-bottom: 13px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 22px;
+}
+
+.container-footer ol {
+    margin-bottom: 34px;
+}
+
+.container-footer ol > li {
+    color: #fff;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 130%;
+    margin-bottom: 2px
+}

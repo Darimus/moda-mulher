@@ -1,0 +1,25 @@
+.container-header {
+    /* Olhar esse sass, as vezes nem precisa desse mixin */
+    @include padding-padrao;
+}
+
+.container-header .img-search {
+    position: absolute;
+    right: 55px;
+    top: 12px;
+}
+
+.container-header .nav-section-menu ul {
+    margin-right: 43px;
+}
+
+.container-header .search-box {
+    width: 636px;
+    height: 44px;
+    border: none;
+    border-radius: 50px;
+    padding-left: 20px;
+
+    font-size: 16px;
+    line-height: 19px;
+}
