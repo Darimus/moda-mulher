@@ -1,3 +1,14 @@
+@import "../2-tools/mixinVariavel";
+
+html, * {
+    font-family: Roboto;
+    color: $color-secondary;
+}
+
+.container-fluid {
+    background-color: $color-default;
+}
+
 .container-header {
     /* Olhar esse sass, as vezes nem precisa desse mixin */
     @include padding-padrao;
