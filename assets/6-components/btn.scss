@@ -1,0 +1,8 @@
+@import "../2-tools/mixinVariavel";
+
+.btn-buy {
+    background-color: $color-btn;
+    color: #fff;
+    border: none;
+    height: 34px;
+}

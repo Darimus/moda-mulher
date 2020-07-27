@@ -131,4 +131,11 @@ html, * {
   color: orange;
 }
 
+.btn-buy {
+  background-color: #11DD4A;
+  color: #fff;
+  border: none;
+  height: 34px;
+}
+
 /*# sourceMappingURL=styles-products.css.map */
