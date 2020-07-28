@@ -35,7 +35,6 @@ html, * {
 }
 
 .container-header {
-  /* Olhar esse sass, as vezes nem precisa desse mixin */
   padding-top: 26px;
   padding-bottom: 25px;
 }
@@ -136,6 +135,9 @@ html, * {
   color: #fff;
   border: none;
   height: 34px;
+  margin-top: 26px;
+  margin-bottom: 10px;
+  border-radius: 4px;
 }
 
 .container-description h2 {
@@ -148,6 +150,34 @@ html, * {
   font-weight: bold;
   font-size: 32px;
   margin-bottom: 6px;
+}
+
+.container-checkout .p-description {
+  margin-bottom: 24px;
+}
+.container-checkout .p-price {
+  padding-top: 10px;
+  font-size: 40px;
+}
+.container-checkout .p-juros {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  margin-top: 26px;
+}
+.container-checkout .p-amount {
+  margin-top: 20px;
+}
+
+.container-checkout .select-amount {
+  height: 39px;
+  border: 1px solid #CFCFCF;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.container-comments {
+  margin-top: 10px;
 }
 
 /*# sourceMappingURL=styles-products.css.map */
