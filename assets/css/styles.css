@@ -37,7 +37,7 @@ html, * {
 .container-header {
   /* Olhar esse sass, as vezes nem precisa desse mixin */
   padding-top: 26px;
-  padding-bottom: 25px;
+  padding-bottom: 26px;
 }
 
 .container-header .img-search {
@@ -138,16 +138,8 @@ html, * {
   height: 34px;
 }
 
-.container-description h2 {
+.container h2 {
   font-weight: bold;
-  font-size: 26px;
-  margin-bottom: 14px;
 }
 
-.container-checkout h2 {
-  font-weight: bold;
-  font-size: 32px;
-  margin-bottom: 6px;
-}
-
-/*# sourceMappingURL=styles-products.css.map */
+/*# sourceMappingURL=styles.css.map */

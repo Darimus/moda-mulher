@@ -1,0 +1,11 @@
+@import "../2-tools/mixinVariavel";
+
+.container-description h2 {
+    @include font-size(26px);
+    @include margin-b (14px);
+}
+
+.container-checkout h2 {
+    @include font-size(32px);
+    @include margin-b (6px);
+}

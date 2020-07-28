@@ -10,8 +10,8 @@ html, * {
 }
 
 .container-header {
-    /* Olhar esse sass, as vezes nem precisa desse mixin */
-    @include padding-padrao;
+    padding-top: 26px;
+    padding-bottom: 25px;
 }
 
 .container-header .img-search {

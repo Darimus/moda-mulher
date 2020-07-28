@@ -1,8 +1,14 @@
 $color-default: #FFC107;
 $color-secondary: #343A40;
 $color-btn: #11DD4A;
+$size: 26px;
+$margin-bottom: 30px;
 
-@mixin padding-padrao { 
-    padding-top: 26px;
-    padding-bottom: 26px;
+@mixin margin-b ($margin-bottom) { 
+    margin-bottom: $margin-bottom;
+}
+
+@mixin font-size ($size) {
+    font-weight: bold;
+    font-size: $size;
 }
