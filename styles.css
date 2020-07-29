@@ -78,6 +78,52 @@ html, * {
   padding-top: 15px;
   padding-bottom: 15px;
 }
+.container-menu a {
+  color: #fff;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+}
+.container-menu .menu-title {
+  margin-left: 35px;
+}
+.container-menu .menu-departaments span {
+  position: absolute;
+  width: 23px;
+  height: 3px;
+  background-color: #fff;
+  margin-right: 5px;
+}
+.container-menu .menu-departaments span:nth-child(1) {
+  top: 0;
+}
+.container-menu .menu-departaments span:nth-child(2) {
+  top: 8px;
+}
+.container-menu .menu-departaments span:nth-child(3) {
+  top: 16px;
+}
+.container-menu .menu-departaments li ul {
+  display: none;
+}
+.container-menu .menu-departaments li:hover ul {
+  position: absolute;
+  z-index: 2;
+  top: 34px;
+  background-color: #343A40;
+  display: block;
+  width: 100%;
+  height: 182px;
+}
+.container-menu .menu-departaments .menu-dropdown-color {
+  border-top: 7px solid #FFC107;
+}
+.container-menu .menu-departaments .menu-dropdown-color li {
+  margin-left: 13px;
+  margin-right: 20px;
+  margin-top: 13px;
+}
 
 .container-popular {
   margin-top: 30px;
