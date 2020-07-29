@@ -18,7 +18,7 @@
 </head>
 <body>
     <!-- Header site -->
-<section class="container-fluid">
+<section class="container-fluid color-full-container">
     <section class="container container-header col-md-12 align-items-center">
         <header class="row">
             <!-- Logo site -->
@@ -30,15 +30,15 @@
             <!-- End logo -->
 
             <!-- Search field -->
-            <form class="search-field col-md-7" action="get">
+            <form class="search-field col-md-7 ml-auto" action="get">
                 <input class="search-box" type="search" size="70" placeholder="Procurar Roupas aqui">
                 <img class="img-search" src="assets/img/search.png" alt="logo search">
             </form>
             <!-- End Serch Field -->
             
             <!-- Login -->
-            <nav class="row login-menu col-md-3 align-items-center justify-content-center">
-                <section class="nav-section-menu row align-items-center justify-content-center">
+            <nav class="row login-menu col-md-3 ml-auto">
+                <section class="nav-section-menu row align-items-center ml-auto">
                     <ul class="nav-login">
                         <li> 
                             <a href="#">
@@ -50,7 +50,7 @@
                     <ul class="nav-shopping">
                         <li>
                             <a href="#">
-                                <p><img src="assets/img/shopping-card.png" alt="shopping bag"> Carrinho</p>
+                                <p><span class="product-number">3</span><img src="assets/img/shopping-card.png" alt="shopping bag"> Carrinho</p>
                             </a>
                         </li>
                     </ul>
@@ -67,8 +67,26 @@
 <section class="container-fluid color-menu">  
     <section class="container container-menu">
         <ul class="menu-dropdown row">
-            <li class="col-md-2"><a href="#">Moda Feminida</a></li>
-            <li class="col-md-2"><a href="#">Calçados</a></li>
+            <li class="col-md-2">
+                <a href="#">Moda Feminida</a>
+                <ul class="menu-dropdown-hover">
+                    <li><a href="#">Lançamentos</a></li>
+                    <li><a href="#">Plus Size</a></li>
+                    <li><a href="#">Moda Praia</a></li>
+                    <li><a href="#">Acessórios</a></li>
+                    <li><a href="#">Promoção</a></li>
+                </ul>
+            </li>
+            <li class="col-md-2">
+                <a href="#">Calçados</a>
+                <ul class="menu-dropdown-hover">
+                    <li><a href="#">Coiso</a></li>
+                    <li><a href="#">Coiso</a></li>
+                    <li><a href="#">Coiso</a></li>
+                    <li><a href="#">Coiso</a></li>
+                    <li><a href="#">Coiso</a></li>
+                </ul>
+            </li>
         </ul>
     </section>
 </section>

@@ -1,99 +1,3 @@
-/* -------------------------------- */
-html, * {
-  font-family: Roboto;
-  color: #343A40;
-}
-
-.container-fluid {
-  background-color: #FFC107;
-}
-
-.container-header {
-  /* Olhar esse sass, as vezes nem precisa desse mixin */
-  padding-top: 26px;
-  padding-bottom: 26px;
-}
-
-.container-header .img-search {
-  position: absolute;
-  right: 55px;
-  top: 12px;
-}
-
-.container-header .nav-section-menu ul {
-  margin-right: 43px;
-}
-
-.container-header .search-box {
-  width: 636px;
-  height: 44px;
-  border: none;
-  border-radius: 50px;
-  padding-left: 20px;
-  font-size: 16px;
-  line-height: 19px;
-}
-
-.color-menu {
-  background-color: #343A40;
-}
-
-.container-menu {
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
-
-.container-payment {
-  margin-top: 42px;
-}
-
-.container-payment .align-frete {
-  text-align: right;
-}
-
-.container-popular {
-  margin-top: 30px;
-}
-
-.container-popular h2 {
-  font-style: normal;
-  font-weight: 900;
-  font-size: 26px;
-  line-height: 30px;
-}
-
-.container-popular > .container-products {
-  margin-top: 30px;
-}
-
-.container-popular > .container-products figcaption, p {
-  color: #343A40;
-  margin-top: 9.7px;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 19px;
-  line-height: 22px;
-}
-
-.container-popular > .container-products p {
-  margin-top: 5px;
-  font-size: 16px;
-}
-
-.container-popular .checked {
-  margin-top: 5px;
-  color: orange;
-}
-
-.container-popular .btn-see-more {
-  width: 159px;
-  height: 34px;
-  margin-top: 42px;
-  background: #FFC107;
-  border-radius: 4px;
-  border: 0;
-}
-
 .container-footer {
   margin-top: 47px;
 }
@@ -121,10 +25,176 @@ html, * {
   margin-bottom: 2px;
 }
 
+html, * {
+  font-family: Roboto;
+  color: #343A40;
+}
+
+.color-full-container {
+  background-color: #FFC107;
+}
+
+.container-header {
+  padding-top: 26px;
+  padding-bottom: 25px;
+}
+.container-header .img-search {
+  position: absolute;
+  right: 55px;
+  top: 12px;
+}
+.container-header .nav-section-menu ul {
+  margin-right: 43px;
+}
+.container-header .search-box {
+  width: 636px;
+  height: 44px;
+  border: none;
+  border-radius: 50px;
+  padding-left: 20px;
+  font-size: 16px;
+  line-height: 19px;
+}
+.container-header .product-number {
+  background-color: #FF0F9A;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  color: #fff;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  top: -5px;
+  right: 118px;
+}
+
+.color-menu {
+  background-color: #343A40;
+}
+
+.container-menu {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.container-popular {
+  margin-top: 30px;
+}
+
+.container-popular h2 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 30px;
+}
+
+.container-popular > .container-products {
+  margin-top: 30px;
+}
+
+.container-popular > .container-products figcaption, .p-price {
+  color: #343A40;
+  margin-top: 9.7px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 22px;
+}
+
+.container-popular > .container-products p {
+  margin-top: 5px;
+  font-size: 16px;
+}
+
+.container-popular .checked {
+  margin-top: 5px;
+  color: orange;
+}
+
+.container-popular .btn-see-more {
+  width: 159px;
+  height: 34px;
+  margin-top: 42px;
+  background: #FFC107;
+  border-radius: 4px;
+  border: 0;
+}
+
+.container-payment {
+  margin-top: 42px;
+}
+
+.container-payment .align-frete {
+  text-align: right;
+}
+
 .breadcrumb {
   background-color: transparent;
   margin-top: 40px;
   padding-left: 0;
+}
+
+.checked {
+  margin-top: 5px;
+  color: orange;
+}
+
+.btn-buy {
+  background-color: #11DD4A;
+  color: #fff;
+  border: none;
+  height: 34px;
+  margin-top: 26px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.container-description h2 {
+  font-weight: bold;
+  font-size: 26px;
+  margin-bottom: 14px;
+}
+
+.container-checkout h2 {
+  font-weight: bold;
+  font-size: 32px;
+  margin-bottom: 6px;
+}
+
+.container-checkout .p-description {
+  margin-bottom: 24px;
+}
+.container-checkout .p-price {
+  padding-top: 10px;
+  font-size: 40px;
+}
+.container-checkout .p-juros {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  margin-top: 26px;
+}
+.container-checkout .p-amount {
+  margin-top: 20px;
+}
+
+.container-checkout .select-amount {
+  height: 39px;
+  border: 1px solid #CFCFCF;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.container-comments {
+  margin-top: 10px;
+}
+
+/* -------------------------------- */
+html, * {
+  font-family: Roboto;
+  color: #343A40;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -5,32 +5,47 @@ html, * {
     color: $color-secondary;
 }
 
-.container-fluid {
+.color-full-container {
     background-color: $color-default;
 }
 
 .container-header {
     padding-top: 26px;
     padding-bottom: 25px;
-}
 
-.container-header .img-search {
-    position: absolute;
-    right: 55px;
-    top: 12px;
-}
+    .img-search {
+        position: absolute;
+        right: 55px;
+        top: 12px;
+    }
 
-.container-header .nav-section-menu ul {
-    margin-right: 43px;
-}
+    .nav-section-menu ul {
+        margin-right: 43px;
+    }
 
-.container-header .search-box {
-    width: 636px;
-    height: 44px;
-    border: none;
-    border-radius: 50px;
-    padding-left: 20px;
+    .search-box {
+        width: 636px;
+        height: 44px;
+        border: none;
+        border-radius: 50px;
+        padding-left: 20px;
+    
+        font-size: 16px;
+        line-height: 19px;
+    }
 
-    font-size: 16px;
-    line-height: 19px;
+    .product-number {
+        background-color: #FF0F9A;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 10px;
+        color: #fff;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        top: -5px;
+        right: 118px;
+    }
 }
