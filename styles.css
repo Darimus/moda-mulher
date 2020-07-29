@@ -110,7 +110,6 @@ html, * {
 .container-menu .menu-departaments li:hover ul {
   position: absolute;
   z-index: 2;
-  top: 34px;
   background-color: #343A40;
   display: block;
   width: 100%;
