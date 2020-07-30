@@ -11,18 +11,18 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="../assets/5-objects/grid.css">
-    <link rel="stylesheet" href="../assets/css/styles-products.css">
+    <link rel="stylesheet" href="../styles.css">
 
     <title>Mais Vendidos</title>
 </head>
 <body>
     
-        <!-- Header site -->
-<section class="container-fluid">
+<!-- Header site -->
+<section class="container-fluid color-full-container">
     <section class="container container-header col-md-12 align-items-center">
         <header class="row">
             <!-- Logo site -->
-            <a href="#">
+            <a href="../index.html">
                 <figure class="logo-header col-md-2">
                     <img class="logo" src="../assets/img/Logo.png" alt="Logo Moda da Mulher">
                 </figure>
@@ -30,19 +30,19 @@
             <!-- End logo -->
 
             <!-- Search field -->
-            <form class="search-field col-md-7" action="get">
+            <form class="search-field col-md-7 ml-auto" action="get">
                 <input class="search-box" type="search" size="70" placeholder="Procurar Roupas aqui">
                 <img class="img-search" src="../assets/img/search.png" alt="logo search">
             </form>
             <!-- End Serch Field -->
             
             <!-- Login -->
-            <nav class="row login-menu col-md-3 align-items-center justify-content-center">
-                <section class="nav-section-menu row align-items-center justify-content-center">
+            <nav class="row login-menu col-md-3 ml-auto">
+                <section class="nav-section-menu row align-items-center ml-auto">
                     <ul class="nav-login">
                         <li> 
                             <a href="#">
-                               <p><img src="../assets/img/login.png" alt="login"> Entrar</p>
+                                <p><img src="../assets/img/login.png" alt="login"> Entrar</p>
                             </a>
                         </li>
                     </ul>
@@ -50,7 +50,7 @@
                     <ul class="nav-shopping">
                         <li>
                             <a href="#">
-                                <p><img src="../assets/img/shopping-card.png" alt="shopping bag"> Carrinho</p>
+                                <p><span class="product-number">3</span><img src="../assets/img/shopping-card.png" alt="shopping bag"> Carrinho</p>
                             </a>
                         </li>
                     </ul>
@@ -61,20 +61,46 @@
         <!-- End Header -->
     </section>
 </section>
-    <!-- End Header -->
+<!-- End Header -->
 
-    <!-- Menu top -->
+<!-- Menu top -->
 <section class="container-fluid color-menu">  
     <section class="container container-menu">
-        <ul class="menu-dropdown row">
-            <li class="col-md-2"><a href="#">Moda Feminida</a></li>
-            <li class="col-md-2"><a href="#">Calçados</a></li>
-        </ul>
+        <nav class="menu-departaments">
+            <ul class="menu-dropdown row">
+                <li class="col-md-2 menu-dropdown-hover">  
+                    <span></span>
+                    <span></span>
+                    <span></span>    
+                    <a href="#" class="menu-title">Moda Feminida</a>
+                    <ul class="menu-dropdown-color">
+                        <li><a href="#">Lançamentos</a></li>
+                        <li><a href="#">Plus Size</a></li>
+                        <li><a href="#">Moda Praia</a></li>
+                        <li><a href="#">Acessórios</a></li>
+                        <li><a href="#">Promoção</a></li>
+                    </ul>
+                </li>
+                <li class="col-md-2 menu-dropdown-hover"> 
+                    <span></span>
+                    <span></span>
+                    <span></span>   
+                    <a href="#" class="menu-title">Calçados</a>
+                    <ul class="menu-dropdown-color">
+                        <li><a href="#">Coiso</a></li>
+                        <li><a href="#">Coiso</a></li>
+                        <li><a href="#">Coiso</a></li>
+                        <li><a href="#">Coiso</a></li>
+                        <li><a href="#">Coiso</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
     </section>
 </section>
-    <!-- End Menu top -->
+<!-- End Menu top -->
 
-    <!-- Breadcrumb -->
+<!-- Breadcrumb -->
 <section class="container">
     <section class="row col-md-12">
         <nav aria-label="breadcrumb">
@@ -103,13 +129,14 @@
         <li class="col-md-3">
             <a  href="#">
                 <figure>
-                    <a href="../html/checkout.html"><img src="../assets/img/croped-rosa.png" alt="Cropped Rosa"></a>
-                    <figcaption class="name-product">Cropped Rosa</figcaption>          
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star"></span>
-                    <p class="p-price">R$59,90</p>
+                    <a href="../html/checkout.html"><img src="../assets/img/croped-rosa.png" alt="Cropped Rosa">
+                        <figcaption class="name-product">Cropped Rosa</figcaption>          
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <p class="p-price">R$59,90</p>
+                    </a>
                 </figure>
             </a>
         </li>
@@ -117,13 +144,14 @@
         <li class="col-md-3 d-flex">
             <a class="ml-auto mr-auto" href="#">
                 <figure>
-                    <a href="../html/checkout.html"><img src="../assets/img/camiseta-manga-comprida.png" alt="Camiseta Manga Comprida"></a>
-                    <figcaption class="name-product">Camiseta manga comprida</figcaption>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <p class="p-price">R$59,90</p>
+                    <a href="../html/checkout.html"><img src="../assets/img/camiseta-manga-comprida.png" alt="Camiseta Manga Comprida">
+                        <figcaption class="name-product">Camiseta manga comprida</figcaption>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <p class="p-price">R$59,90</p>
+                    </a>
                 </figure>
             </a>
         </li>
@@ -131,13 +159,14 @@
         <li class="col-md-3 d-flex">
             <a class="ml-auto mr-auto" href="#">
                 <figure>
-                    <a href="../html/checkout.html"><img src="../assets/img/Camiseta Listrada.png" alt="Camiseta Listrada"></a>
-                    <figcaption class="name-product">Camiseta Listrada</figcaption>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <p class="p-price">R$59,90</p>
+                    <a href="../html/checkout.html"><img src="../assets/img/Camiseta Listrada.png" alt="Camiseta Listrada">
+                        <figcaption class="name-product">Camiseta Listrada</figcaption>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <p class="p-price">R$59,90</p>
+                    </a>
                 </figure>
             </a>
         </li>
@@ -145,13 +174,14 @@
         <li class="col-md-3 d-flex">
             <a class="ml-auto" href="#">
                 <figure>
-                    <a href="../html/checkout.html"><img src="../assets/img/saia-plisada.png" alt="Saia Plisada"></a>
-                    <figcaption class="name-product">Saia plisada</figcaption>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <p class="p-price">R$59,90</p>
+                    <a href="../html/checkout.html"><img src="../assets/img/saia-plisada.png" alt="Saia Plisada">
+                        <figcaption class="name-product">Saia plisada</figcaption>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <p class="p-price">R$59,90</p>
+                    </a>
                 </figure>
             </a>
         </li>
@@ -165,13 +195,14 @@
         <li class="col-md-3">
             <a  href="#">
                 <figure>
-                    <a href="../html/checkout.html"><img src="../assets/img/croped-rosa.png" alt="Cropped Rosa"></a>
-                    <figcaption class="name-product">Cropped Rosa</figcaption>          
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star"></span>
-                    <p class="p-price">R$59,90</p>
+                    <a href="../html/checkout.html"><img src="../assets/img/croped-rosa.png" alt="Cropped Rosa">
+                        <figcaption class="name-product">Cropped Rosa</figcaption>          
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <p class="p-price">R$59,90</p>
+                    </a>
                 </figure>
             </a>
         </li>
@@ -179,13 +210,14 @@
         <li class="col-md-3 d-flex">
             <a class="ml-auto mr-auto" href="#">
                 <figure>
-                    <a href="../html/checkout.html"><img src="../assets/img/camiseta-manga-comprida.png" alt="Camiseta Manga Comprida"></a>
-                    <figcaption class="name-product">Camiseta manga comprida</figcaption>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <p class="p-price">R$59,90</p>
+                    <a href="../html/checkout.html"><img src="../assets/img/camiseta-manga-comprida.png" alt="Camiseta Manga Comprida">
+                        <figcaption class="name-product">Camiseta manga comprida</figcaption>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <p class="p-price">R$59,90</p>
+                    </a>
                 </figure>
             </a>
         </li>
@@ -193,13 +225,14 @@
         <li class="col-md-3 d-flex">
             <a class="ml-auto mr-auto" href="#">
                 <figure>
-                    <a href="../html/checkout.html"><img src="../assets/img/Camiseta Listrada.png" alt="Camiseta Listrada"></a>
-                    <figcaption class="name-product">Camiseta Listrada</figcaption>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <p class="p-price">R$59,90</p>
+                    <a href="../html/checkout.html"><img src="../assets/img/Camiseta Listrada.png" alt="Camiseta Listrada">
+                        <figcaption class="name-product">Camiseta Listrada</figcaption>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <p class="p-price">R$59,90</p>
+                    </a>
                 </figure>
             </a>
         </li>
@@ -207,13 +240,14 @@
         <li class="col-md-3 d-flex">
             <a class="ml-auto" href="#">
                 <figure>
-                    <a href="../html/checkout.html"><img src="../assets/img/saia-plisada.png" alt="Saia Plisada"></a>
-                    <figcaption class="name-product">Saia plisada</figcaption>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <p class="p-price">R$59,90</p>
+                    <a href="../html/checkout.html"><img src="../assets/img/saia-plisada.png" alt="Saia Plisada">
+                        <figcaption class="name-product">Saia plisada</figcaption>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <p class="p-price">R$59,90</p>
+                    </a>
                 </figure>
             </a>
         </li>
@@ -227,13 +261,14 @@
         <li class="col-md-3">
             <a  href="#">
                 <figure>
-                    <a href="../html/checkout.html"><img src="../assets/img/croped-rosa.png" alt="Cropped Rosa"></a>
-                    <figcaption class="name-product">Cropped Rosa</figcaption>          
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star"></span>
-                    <p class="p-price">R$59,90</p>
+                    <a href="../html/checkout.html"><img src="../assets/img/croped-rosa.png" alt="Cropped Rosa">
+                        <figcaption class="name-product">Cropped Rosa</figcaption>          
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <p class="p-price">R$59,90</p>
+                    </a>
                 </figure>
             </a>
         </li>
@@ -241,13 +276,14 @@
         <li class="col-md-3 d-flex">
             <a class="ml-auto mr-auto" href="#">
                 <figure>
-                    <a href="../html/checkout.html"><img src="../assets/img/camiseta-manga-comprida.png" alt="Camiseta Manga Comprida"></a>
-                    <figcaption class="name-product">Camiseta manga comprida</figcaption>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <p class="p-price">R$59,90</p>
+                    <a href="../html/checkout.html"><img src="../assets/img/camiseta-manga-comprida.png" alt="Camiseta Manga Comprida">
+                        <figcaption class="name-product">Camiseta manga comprida</figcaption>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <p class="p-price">R$59,90</p>
+                    </a>
                 </figure>
             </a>
         </li>
@@ -255,13 +291,14 @@
         <li class="col-md-3 d-flex">
             <a class="ml-auto mr-auto" href="#">
                 <figure>
-                    <a href="../html/checkout.html"><img src="../assets/img/Camiseta Listrada.png" alt="Camiseta Listrada"></a>
-                    <figcaption class="name-product">Camiseta Listrada</figcaption>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <p class="p-price">R$59,90</p>
+                    <a href="../html/checkout.html"><img src="../assets/img/Camiseta Listrada.png" alt="Camiseta Listrada">
+                        <figcaption class="name-product">Camiseta Listrada</figcaption>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <p class="p-price">R$59,90</p>
+                    </a>
                 </figure>
             </a>
         </li>
@@ -269,13 +306,14 @@
         <li class="col-md-3 d-flex">
             <a class="ml-auto" href="../html/checkout.html">
                 <figure>
-                    <a href="../html/checkout.html"><img src="../assets/img/saia-plisada.png" alt="Saia Plisada"></a>
-                    <figcaption class="name-product">Saia plisada</figcaption>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <p class="p-price">R$59,90</p>
+                    <a href="../html/checkout.html"><img src="../assets/img/saia-plisada.png" alt="Saia Plisada">
+                        <figcaption class="name-product">Saia plisada</figcaption>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <p class="p-price">R$59,90</p>
+                    </a>
                 </figure>
             </a>
         </li>

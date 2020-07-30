@@ -106,6 +106,7 @@ html, * {
 }
 .container-menu .menu-departaments li ul {
   display: none;
+  text-decoration: none;
 }
 .container-menu .menu-departaments li:hover ul {
   position: absolute;
@@ -210,6 +211,9 @@ html, * {
 
 .container-checkout .p-description {
   margin-bottom: 24px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
 }
 .container-checkout .p-price {
   padding-top: 10px;
@@ -223,6 +227,12 @@ html, * {
 }
 .container-checkout .p-amount {
   margin-top: 20px;
+}
+
+.container-description p {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
 }
 
 .container-checkout .select-amount {

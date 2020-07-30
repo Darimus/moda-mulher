@@ -1,6 +1,9 @@
 .container-checkout {
     .p-description {
-        margin-bottom: 24px;
+        margin-bottom: 24px;      
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
     }
     
     .p-price {
@@ -17,5 +20,13 @@
 
     .p-amount {
         margin-top: 20px;
+    }
+}
+
+.container-description {
+    p {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
     }
 }
