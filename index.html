@@ -5,25 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;900&display=swap" rel="stylesheet">    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="assets/4-base/reset.css">
-
-    <link rel="stylesheet" href="assets/5-objects/grid.css">
-    <link rel="stylesheet" href="styles.css">
-
+    <link rel="stylesheet" href="./assets/css/styles.css">
 
     <title>Moda da Mulher</title>
 </head>
 <body>
 <!-- Header site -->
 <section class="container-fluid color-full-container">
-    <section class="container container-header col-md-12 align-items-center">
+    <section class="container container-header align-items-center">
         <header class="row">
             <!-- Logo site -->
-            <a href="#">
-                <figure class="logo-header col-md-2">
+            <a class="col-md-2" href="#">
+                <figure class="logo-header">
                     <img class="logo" src="assets/img/Logo.png" alt="Logo Moda da Mulher">
                 </figure>
             </a>
@@ -37,26 +33,19 @@
             <!-- End Serch Field -->
             
             <!-- Login -->
-            <nav class="row login-menu col-md-3 ml-auto">
-                <section class="nav-section-menu row align-items-center ml-auto">
-                    <ul class="nav-login">
-                        <li> 
-                            <a href="#">
-                               <p class="p-login"><img src="assets/img/login.png" alt="login"> Entrar</p>
-                            </a>
-                        </li>
-                    </ul>
+            <article class="login-menu col-md-3">
+                    <section class="nav-login">
+                        <a href="#">
+                            <span class="p-login"><img src="assets/img/login.png" alt="login">Entrar</span>
+                        </a> 
+                    </section>
 
-                    <ul class="nav-shopping">
-                        <li>
-                            <a href="#" class="row">
-                                <img src="assets/img/shopping-card.png" alt="shopping bag">
-                                <p class="d-flex mt-auto mb-auto ml-1 p-login"><span class="product-number">3</span> Carrinho</p>
-                            </a>
-                        </li>
-                    </ul>
-                </section>
-            </nav>
+                    <section class="nav-shopping">
+                        <a href="#">
+                            <span class="p-login"><img src="assets/img/shopping-card.png" alt="shopping bag"><span class="product-number">3</span>Carrinho</span>
+                        </a>
+                    </section>
+            </article>
             <!-- End Login -->
         </header>
         <!-- End Header -->
@@ -68,11 +57,9 @@
 <section class="container-fluid color-menu">  
     <section class="container container-menu">
         <nav class="menu-departaments">
-            <ul class="menu-dropdown row">
-                <li class="col-md-2 menu-dropdown-hover">  
-                    <span></span>
-                    <span></span>
-                    <span></span>    
+            <ul class="menu-dropdown nav row">
+                <li class="col-md-2 menu-dropdown-hover">
+                    <img src="assets/img/bar-menu.svg" alt="Bar menu SVG">
                     <a href="#" class="menu-title">Moda Feminida</a>
                     <ul class="menu-dropdown-color">
                         <li><a href="#">Lançamentos</a></li>
@@ -82,17 +69,15 @@
                         <li><a href="#">Promoção</a></li>
                     </ul>
                 </li>
-                <li class="col-md-2 menu-dropdown-hover"> 
-                    <span></span>
-                    <span></span>
-                    <span></span>   
+                <li class="col-md-2 menu-dropdown-hover">   
+                    <img src="assets/img/bar-menu.svg" alt="Bar menu SVG">
                     <a href="#" class="menu-title">Calçados</a>
                     <ul class="menu-dropdown-color">
-                        <li><a href="#">Coiso</a></li>
-                        <li><a href="#">Coiso</a></li>
-                        <li><a href="#">Coiso</a></li>
-                        <li><a href="#">Coiso</a></li>
-                        <li><a href="#">Coiso</a></li>
+                        <li><a href="#">Sandalia</a></li>
+                        <li><a href="#">Tênis</a></li>
+                        <li><a href="#">Sapatilha</a></li>
+                        <li><a href="#">Salto</a></li>
+                        <li><a href="#">Rasteirinha</a></li>
                     </ul>
                 </li>
             </ul>
@@ -103,69 +88,60 @@
 
 <!-- Banner -->
 <section class="container">
-    <section class="row">
-        <section class="col-md-12">
-            <section id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                <section class="carousel-inner">
-                <figure class="carousel-item active">
-                    <img src="assets/img/Banner (1).png" class="d-block w-100" alt="...">
-                </figure>
+    <section id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <section class="carousel-inner">
+        <figure class="carousel-item active">
+            <img src="assets/img/Banner (1).png" class="d-block w-100" alt="...">
+        </figure>
 
-                <figure class="carousel-item">
-                    <img src="assets/img/Banner.png" class="d-block w-100" alt="...">
-                </figure>
-                </section>
-
-                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-            </section>
+        <figure class="carousel-item">
+            <img src="assets/img/Banner.png" class="d-block w-100" alt="...">
+        </figure>
         </section>
+
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
     </section>
 </section>
 <!-- End Banner -->
 
-<!-- Parcela e frete -->
+<!-- Parcela e shipping -->
 <section class="container container-payment">
     <section class="row">
-        <a class="align-parcelas col-md-6" href="#">
-            <img src="assets/img/Parcelas.png" alt="Parcelas">
+        <a href="#" class="col-md-6" style="background: url('assets/img/Parcelas.png') no-repeat; background-size: cover;">
         </a>
-        
+
         <a class="align-frete col-md-6" href="#">
             <img src="assets/img/frete.png" alt="Frete">
         </a>
     </section>
 </section>
-<!-- Fim parcela e frete -->
+<!-- End parcela e shipping -->
 
 <!-- Mais populares -->
 <section class="container container-popular">
     <h2 class="text-center">Mais Populares</h2>
 
-    <ol class="container-products row d-flex">
+    <ul class="row nav">
         <li class="col-md-3">
             <a  href="html/checkout.html">
-                <figure>
                     <img src="assets/img/croped-rosa.png" alt="Cropped Rosa">
                     <figcaption class="name-product">Cropped Rosa</figcaption>          
                     <span class="fa fa-star checked"></span>
                     <span class="fa fa-star checked"></span>
                     <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star"></span>
                     <p class="p-price">R$59,90</p>
-                </figure>
             </a>
         </li>
 
-        <li class="col-md-3 d-flex">
-            <a class="ml-auto mr-auto" href="html/checkout.html">
-                <figure>
+        <li class="col-md-3">
+            <a class="" href="html/checkout.html">
                     <img src="assets/img/camiseta-manga-comprida.png" alt="Camiseta Manga Comprida">
                     <figcaption class="name-product">Camiseta manga comprida</figcaption>
                     <span class="fa fa-star checked"></span>
@@ -173,13 +149,11 @@
                     <span class="fa fa-star checked"></span>
                     <span class="fa fa-star checked"></span>
                     <p class="p-price">R$59,90</p>
-                </figure>
             </a>
         </li>
 
-        <li class="col-md-3 d-flex">
-            <a class="ml-auto mr-auto" href="html/checkout.html">
-                <figure>
+        <li class="col-md-3">
+            <a class="" href="html/checkout.html">
                     <img src="assets/img/Camiseta Listrada.png" alt="Camiseta Listrada">
                     <figcaption class="name-product">Camiseta Listrada</figcaption>
                     <span class="fa fa-star checked"></span>
@@ -187,13 +161,11 @@
                     <span class="fa fa-star checked"></span>
                     <span class="fa fa-star checked"></span>
                     <p class="p-price">R$59,90</p>
-                </figure>
             </a>
         </li>
 
-        <li class="col-md-3 d-flex">
-            <a class="ml-auto" href="html/checkout.html">
-                <figure>
+        <li class="col-md-3">
+            <a class="" href="html/checkout.html">
                     <img src="assets/img/saia-plisada.png" alt="Saia Plisada">
                     <figcaption class="name-product">Saia plisada</figcaption>
                     <span class="fa fa-star checked"></span>
@@ -201,10 +173,9 @@
                     <span class="fa fa-star checked"></span>
                     <span class="fa fa-star checked"></span>
                     <p class="p-price">R$59,90</p>
-                </figure>
             </a>
         </li>
-    </ol>  
+    </ul>  
     <!-- Botão Veja Mais -->
     <section class="col-md-12 text-center">
         <a href="html/more-products.html">

@@ -1,0 +1,67 @@
+@import "../2-tools/mixinVariavel";
+
+.color-menu {
+    background-color: $color-secondary;
+}
+
+.container-menu {
+    
+    a {
+        color: #fff;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+    }
+
+    /* .menu-title {
+        margin-left: 35px;
+    } */
+
+    .menu-departaments {
+
+        .menu-dropdown-hover {
+            padding: 15px 15px 15px;
+            img {
+                padding-right: 5px;
+            }
+        }
+
+        .menu-bar {
+            position: relative;
+
+        }
+        
+        li ul {
+            display: none;
+            position: absolute;
+            text-decoration: none;
+            z-index: 2;
+            background-color: $color-secondary;
+            top: 54.5px;
+            left: 0;
+            width: 100%;
+            list-style: none;
+            padding-left: 0;
+
+            li {
+                /* Start o A */
+                a {
+                    display: block;
+                    padding: 15px;
+                }
+                /* End A */
+            }
+        }
+
+        li:hover { 
+            background-color: darken($color-secondary, 9);
+
+            ul {
+                display: block;
+            }
+        }
+        .menu-dropdown-color {
+            border-top: 7px solid $color-default;
+        } 
+    }
+}

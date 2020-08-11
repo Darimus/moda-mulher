@@ -1,0 +1,43 @@
+@import "../2-tools/mixinVariavel";
+
+
+.container-popular {
+    margin-top: 30px;
+}
+
+.container-popular h2 { 
+    font-style: normal;
+    font-weight: 900;
+    font-size: 26px;
+}
+
+.container-popular > .container-products {
+    margin-top: 30px;
+}
+
+.container-popular > .container-products figcaption, .p-price {
+    color: $color-secondary;
+    margin-top: 9.7px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.container-popular > .container-products p {
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+.container-popular .checked {
+    margin-top: 5px;
+    color: orange;
+}
+
+.container-popular .btn-see-more {
+    width: 159px;
+    height: 34px;
+    margin-top: 42px;
+    background: #FFC107;
+    border-radius: 4px;
+    border: 0;
+}
