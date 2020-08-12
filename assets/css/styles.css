@@ -150,9 +150,22 @@ html, * {
 
 .container-payment {
   margin-top: 42px; }
-
-.container-payment .align-frete {
-  text-align: right; }
+  .container-payment .position-r {
+    position: relative; }
+    .container-payment .position-r span {
+      position: absolute;
+      font-family: Roboto;
+      color: #fff;
+      font-size: 23px;
+      display: block;
+      width: 190px; }
+      .container-payment .position-r span strong {
+        color: #fff; }
+  .container-payment .bg-parcelas {
+    width: 100%;
+    height: 72%; }
+  .container-payment .align-frete {
+    text-align: right; }
 
 .breadcrumb {
   background-color: transparent;
