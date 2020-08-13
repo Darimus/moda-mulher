@@ -85,7 +85,8 @@ html, * {
     font-weight: normal;
     font-size: 16px; }
   .container-menu .menu-departaments .menu-dropdown-hover {
-    padding: 15px 15px 15px; }
+    margin-left: 15px;
+    padding: 15px 15px 15px 5px; }
     .container-menu .menu-departaments .menu-dropdown-hover img {
       padding-right: 5px; }
   .container-menu .menu-departaments .menu-bar {
@@ -149,21 +150,29 @@ html, * {
   border: 0; }
 
 .container-payment {
-  margin-top: 42px; }
+  margin-top: 42px;
+  padding-right: 0; }
+  .container-payment .color-section {
+    background-color: #FF0F9A; }
+  .container-payment .color-section-frete {
+    background-color: #B343C3; }
+  .container-payment .abs-payment {
+    position: absolute;
+    font-family: Roboto;
+    color: #fff;
+    font-size: 23px;
+    display: block;
+    width: 190px; }
+    .container-payment .abs-payment strong {
+      color: #fff; }
   .container-payment .position-r {
-    position: relative; }
-    .container-payment .position-r span {
-      position: absolute;
-      font-family: Roboto;
-      color: #fff;
-      font-size: 23px;
-      display: block;
-      width: 190px; }
-      .container-payment .position-r span strong {
-        color: #fff; }
+    position: relative;
+    padding-right: 0; }
+    .container-payment .position-r img {
+      text-align: left; }
   .container-payment .bg-parcelas {
-    width: 100%;
-    height: 72%; }
+    height: 100%;
+    margin-left: auto; }
   .container-payment .align-frete {
     text-align: right; }
 

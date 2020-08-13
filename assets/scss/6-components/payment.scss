@@ -2,26 +2,41 @@
 
 .container-payment {
     margin-top: 42px;
+    padding-right: 0;
+
+    .color-section {
+        background-color: #FF0F9A;
+    }
+
+     .color-section-frete {
+         background-color: #B343C3;
+     }
+
+    .abs-payment {
+        position: absolute;
+        font-family: Roboto;
+        color: #fff;
+        font-size: 23px;
+        display: block;
+        width: 190px;
+        
+        strong {
+            color: #fff;
+        }
+    }
 
     .position-r {
         position: relative;
-
-        span {
-            position: absolute;
-            font-family: Roboto;
-            color: #fff;
-            font-size: 23px;
-            display: block;
-            width: 190px;
-            strong {
-                color: #fff;
-            }
+        padding-right: 0;
+        
+        img {
+            text-align: left;
         }
     }
 
     .bg-parcelas {
-        width: 100%;
-        height: 72%;
+        height: 100%;
+        margin-left: auto;
     }
 
     .align-frete {
