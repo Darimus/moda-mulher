@@ -157,8 +157,10 @@ html, * {
   .container-payment .color-section {
     background-color: #FF0F9A; }
   .container-payment .logo-style {
+    position: relative;
     height: fit-content;
-    padding-left: 67px; }
+    padding-left: 67px;
+    top: 27px; }
   .container-payment .color-section-frete {
     background-color: #B343C3; }
   .container-payment .abs-payment {
