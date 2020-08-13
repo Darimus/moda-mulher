@@ -34,12 +34,14 @@ html, * {
   .container-header .img-search {
     position: absolute;
     right: 55px;
-    top: 12px; }
+    top: 8px;
+    background-color: transparent;
+    border: 0; }
   .container-header .nav-section-menu ul {
     margin-right: 43px; }
   .container-header .search-box {
-    width: 636px;
     height: 44px;
+    width: 100%;
     border: none;
     border-radius: 50px;
     padding-left: 20px;
@@ -154,6 +156,9 @@ html, * {
   padding-right: 0; }
   .container-payment .color-section {
     background-color: #FF0F9A; }
+  .container-payment .logo-style {
+    height: fit-content;
+    padding-left: 67px; }
   .container-payment .color-section-frete {
     background-color: #B343C3; }
   .container-payment .abs-payment {

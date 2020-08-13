@@ -16,7 +16,9 @@ html, * {
     .img-search {
         position: absolute;
         right: 55px;
-        top: 12px;
+        top: 8px;
+        background-color: transparent;
+        border: 0;
     }
 
     .nav-section-menu ul {
@@ -24,8 +26,8 @@ html, * {
     }
 
     .search-box {
-        width: 636px;
         height: 44px;
+        width: 100%;
         border: none;
         border-radius: 50px;
         padding-left: 20px;
