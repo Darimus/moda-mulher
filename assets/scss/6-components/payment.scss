@@ -12,7 +12,6 @@
         position: relative;
         height: fit-content;
         padding-left: 67px;
-        top: 27px;
     }
 
      .color-section-frete {
@@ -48,5 +47,9 @@
 
     .align-frete {
         text-align: right;
+    }
+
+    .s-align-frete {
+        width: 150px;
     }
 }

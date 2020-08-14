@@ -159,8 +159,7 @@ html, * {
   .container-payment .logo-style {
     position: relative;
     height: fit-content;
-    padding-left: 67px;
-    top: 27px; }
+    padding-left: 67px; }
   .container-payment .color-section-frete {
     background-color: #B343C3; }
   .container-payment .abs-payment {
@@ -182,6 +181,8 @@ html, * {
     margin-left: auto; }
   .container-payment .align-frete {
     text-align: right; }
+  .container-payment .s-align-frete {
+    width: 150px; }
 
 .breadcrumb {
   background-color: transparent;
