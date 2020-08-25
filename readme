@@ -5,7 +5,7 @@
 5 - Reescrever o código, e lembre-se que o bootstrap tem reset;
 6 - Aprender a colocar os (...).
 https://tinypng.com/ (Usar esse site para comprimir imagens)
-
+7 - Ficar alerta com o SASS na propriedade background, ao ser compilado o caminho das imagens ficam a partir da pasta css selecionada no SASS, sendo assim ao pensar no URL(Caminho), deve ser pensando apartir do css e não do sass;
 
 1 - Header consertado (Eu espero); (DONE)
 2 - Menu também; (DONE)

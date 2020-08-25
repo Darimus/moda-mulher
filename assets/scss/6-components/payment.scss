@@ -4,6 +4,16 @@
     margin-top: 42px;
     padding-right: 0;
 
+    .bg-background {
+        background: url(./../img/background-parcelas.png) no-repeat center right;
+        height: 100px;
+    }
+
+    .bg-background2 {
+        background: url(./../img/background-entrega.png) no-repeat center right;
+        height: 100px;
+    }
+
     .color-section {
         background-color: #FF0F9A;
     }
@@ -11,7 +21,7 @@
     .logo-style {
         position: relative;
         height: fit-content;
-        padding-left: 67px;
+        margin: 0 25px 0 80px;
     }
 
      .color-section-frete {
@@ -19,15 +29,14 @@
      }
 
     .abs-payment {
-        position: absolute;
         font-family: Roboto;
         color: #fff;
         font-size: 23px;
         display: block;
-        width: 190px;
 
         strong {
             color: #fff;
+            display: block;
         }
     }
 
@@ -42,14 +51,10 @@
 
     .bg-parcelas {
         height: 100%;
-        margin-left: auto;
+        width: 100%;
     }
 
     .align-frete {
         text-align: right;
-    }
-
-    .s-align-frete {
-        width: 150px;
     }
 }
