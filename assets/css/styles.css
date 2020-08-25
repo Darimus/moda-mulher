@@ -308,6 +308,7 @@ html, * {
 html, * {
   font-family: Roboto;
   color: #343A40;
+  text-decoration: none !important;
 }
 
 /*# sourceMappingURL=styles.css.map */
