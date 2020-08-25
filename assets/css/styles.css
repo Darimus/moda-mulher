@@ -1,7 +1,6 @@
 .container-footer {
   margin-top: 47px;
 }
-
 .container-footer .color-heading-footer {
   color: #FFC107;
   margin-top: 26px;
@@ -11,18 +10,21 @@
   font-size: 19px;
   line-height: 22px;
 }
-
 .container-footer ol {
   margin-bottom: 34px;
 }
-
 .container-footer ol > li {
   color: #fff;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 130%;
   margin-bottom: 2px;
+}
+.container-footer .mais-acessados > li {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 17ch;
 }
 
 html, * {
@@ -309,6 +311,7 @@ html, * {
   font-family: Roboto;
   color: #343A40;
   text-decoration: none !important;
+  list-style: none;
 }
 
 /*# sourceMappingURL=styles.css.map */
