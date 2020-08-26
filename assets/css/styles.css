@@ -46,6 +46,9 @@ html, * {
   padding-top: 26px;
   padding-bottom: 25px;
 }
+.container-header .logo {
+  width: 100%;
+}
 .container-header .img-search {
   position: absolute;
   right: 55px;
