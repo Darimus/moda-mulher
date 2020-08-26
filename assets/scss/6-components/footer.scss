@@ -15,6 +15,9 @@
 
     ol {
         margin-bottom: 34px;
+        padding: 0;
+        justify-content: flex-end;
+        align-items: center;
     }
 
     ol > li {
@@ -25,7 +28,11 @@
         margin-bottom: 2px;
     }
 
-    .mais-acessados > li{
+    .ol-characters > li {
+        white-space: nowrap;
+    }
+
+    .mais-acessados > li {
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
