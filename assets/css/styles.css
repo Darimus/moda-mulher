@@ -46,8 +46,13 @@ html, * {
   padding-top: 26px;
   padding-bottom: 25px;
 }
-.container-header .logo {
-  width: 100%;
+.container-header .logo-header {
+  margin: 0 auto;
+}
+@media (min-width: 768px) {
+  .container-header .logo {
+    width: 100%;
+  }
 }
 .container-header .img-search {
   position: absolute;
@@ -72,6 +77,11 @@ html, * {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+@media (max-width: 767px) {
+  .container-header .login-menu {
+    margin-top: 30px;
+  }
 }
 .container-header .login-menu .nav-login {
   margin: 0 30px 0 0;
