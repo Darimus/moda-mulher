@@ -15,6 +15,9 @@ html, * {
 
     .logo-header {
         margin: 0 auto;
+        @media (min-width: 575px) {
+            text-align: center;
+        }
     }
 
     .logo {
