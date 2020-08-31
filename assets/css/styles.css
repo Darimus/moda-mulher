@@ -32,6 +32,11 @@
   text-overflow: ellipsis;
   max-width: 17ch;
 }
+@media (max-width: 991px) {
+  .container-footer .footer-whitespace {
+    white-space: break-spaces !important;
+  }
+}
 
 html, * {
   font-family: Roboto;
@@ -240,6 +245,11 @@ html, * {
   color: #fff;
   font-size: 23px;
   display: block;
+}
+@media (max-width: 338px) {
+  .container-payment .abs-payment {
+    font-size: 15px;
+  }
 }
 .container-payment .abs-payment strong {
   color: #fff;

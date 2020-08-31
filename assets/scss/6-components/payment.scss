@@ -33,6 +33,10 @@
         color: #fff;
         font-size: 23px;
         display: block;
+        
+        @media (max-width: 338px) {
+            font-size: 15px;
+        }
 
         strong {
             color: #fff;

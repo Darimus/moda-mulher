@@ -38,4 +38,11 @@
         text-overflow: ellipsis;
         max-width: 17ch;
     }
+
+    @media (max-width: 991px) {
+        .footer-whitespace {
+            white-space: break-spaces !important;
+        }
+    }
+    
 }
