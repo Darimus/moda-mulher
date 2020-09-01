@@ -1,61 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;900&display=swap" rel="stylesheet">    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
-    <link rel="stylesheet" href="../assets/4-base/reset.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="../assets/5-objects/grid.css">
-    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
     <title>Ver Produto</title>
 </head>
 <body>
         
 <!-- Header site -->
 <section class="container-fluid color-full-container">
-    <section class="container container-header col-md-12 align-items-center">
+    <section class="container container-header align-items-center">
         <header class="row">
             <!-- Logo site -->
-            <a href="../index.html">
-                <figure class="logo-header col-md-2">
-                    <img class="logo" src="../assets/img/Logo.png" alt="Logo Moda da Mulher">
+            <a class="logo-header col-md-2 col-sm-4 col-12" href="#">
+                <figure>
+                    <img class="logo" src="assets/img/logo.svg" alt="Logo Moda da Mulher">
                 </figure>
             </a>
             <!-- End logo -->
 
             <!-- Search field -->
-            <form class="search-field col-md-7 ml-auto d-flex mt-auto mb-auto" action="get">
+            <form class="search-field col-md-7 mt-auto mb-auto" action="get">
                 <input class="search-box" type="search" size="70" placeholder="Procurar Roupas aqui">
-                <img class="img-search" src="../assets/img/search.png" alt="logo search">
+                <button class="img-search" alt="Botão search"><img src="assets/img/search.png" alt="Logo Search"></button>
             </form>
             <!-- End Serch Field -->
             
             <!-- Login -->
-            <nav class="row login-menu col-md-3 ml-auto">
-                <section class="nav-section-menu row align-items-center ml-auto">
-                    <ul class="nav-login">
-                        <li> 
-                            <a href="#">
-                               <p class="p-login"><img src="../assets/img/login.png" alt="login"> Entrar</p>
-                            </a>
-                        </li>
-                    </ul>
+            <article class="login-menu col-md-3">
+                    <section class="nav-login">
+                        <a href="#">
+                            <span class="p-login"><img src="assets/img/login.png" alt="login">Entrar</span>
+                        </a> 
+                    </section>
 
-                    <ul class="nav-shopping">
-                        <li>
-                            <a href="#" class="row">
-                                <img src="../assets/img/shopping-card.png" alt="shopping bag">
-                                <p class="d-flex mt-auto mb-auto ml-1 p-login"><span class="product-number">3</span> Carrinho</p>
-                            </a>
-                        </li>
-                    </ul>
-                </section>
-            </nav>
+                    <section class="nav-shopping">
+                        <a href="#">
+                            <span class="p-login"><img src="assets/img/shopping-card.png" alt="shopping bag"><span class="product-number">3</span>Carrinho</span>
+                        </a>
+                    </section>
+            </article>
             <!-- End Login -->
         </header>
         <!-- End Header -->
@@ -67,12 +57,10 @@
 <section class="container-fluid color-menu">  
     <section class="container container-menu">
         <nav class="menu-departaments">
-            <ul class="menu-dropdown row">
-                <li class="col-md-2 menu-dropdown-hover">  
-                    <span></span>
-                    <span></span>
-                    <span></span>    
-                    <a href="#" class="menu-title">Moda Feminida</a>
+            <ul class="menu-dropdown nav row">
+                <li class="col-sm-5 col-lg-2 col-md-3 menu-dropdown-hover">
+                    <img src="assets/img/bar-menu.svg" alt="Bar menu SVG">
+                    <a href="#" class="menu-title">Moda Feminina</a>
                     <ul class="menu-dropdown-color">
                         <li><a href="#">Lançamentos</a></li>
                         <li><a href="#">Plus Size</a></li>
@@ -81,17 +69,15 @@
                         <li><a href="#">Promoção</a></li>
                     </ul>
                 </li>
-                <li class="col-md-2 menu-dropdown-hover"> 
-                    <span></span>
-                    <span></span>
-                    <span></span>   
+                <li class="col-sm-6 col-lg-2 col-md-3 menu-dropdown-hover">   
+                    <img src="assets/img/bar-menu.svg" alt="Bar menu SVG">
                     <a href="#" class="menu-title">Calçados</a>
                     <ul class="menu-dropdown-color">
-                        <li><a href="#">Coiso</a></li>
-                        <li><a href="#">Coiso</a></li>
-                        <li><a href="#">Coiso</a></li>
-                        <li><a href="#">Coiso</a></li>
-                        <li><a href="#">Coiso</a></li>
+                        <li class="darken-list"><a href="#">Sandalia</a></li>
+                        <li class="darken-list"><a href="#">Tênis</a></li>
+                        <li class="darken-list"><a href="#">Sapatilha</a></li>
+                        <li class="darken-list"><a href="#">Salto</a></li>
+                        <li class="darken-list"><a href="#">Rasteirinha</a></li>
                     </ul>
                 </li>
             </ul>
@@ -106,8 +92,8 @@
         <nav aria-label="breadcrumb">
           <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
-              <li class="breadcrumb-item active" aria-current="page"><a href="../html/more-products.html">Camisetas</a></li>
+              <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page"><a href="more-products.html">Camisetas</a></li>
               <li class="breadcrumb-item active" aria-current="page">Camiseta Manga Comprida</li>
 
             </ol>
@@ -120,7 +106,7 @@
 <section class="container container-checkout">
     <section class="row">
         <section class="photo-product col-md-7">
-            <img src="../assets/img/camiseta-manga-comprida-large.png" alt="Camiseta Manga Comprida">
+            <img src="./assets/img/camiseta-manga-comprida-large.png" alt="Camiseta Manga Comprida">
         </section>      
         <section class="description-price col-md-5">
             <h2>Camiseta manga comprida</h2>
@@ -154,21 +140,21 @@
 </section>
 <!-- End Comentarios -->
 
-<!-- Footer --> 
+<!-- Footer -->
 <section class="container-fluid color-menu container-footer">
-    <section class="container col-md-12">
+    <section class="container">
         <footer class="row">
-            <section class="col-md-3">
-                <ol>
+            <section class="col-md-4 col-sm-12">
+                <ol class="ol-characters">
                     <h2 class="color-heading-footer">Atendimento</h2>
                     <li>(11)9 9999 9999</li>
                     <li>contato@sualoja.com.br</li>
                     <li>Horário de atendimento on-line:</li>
-                    <li>Segunda à sexta das 9:00 até as 17:30h</li>
+                    <li class="footer-whitespace">Segunda à sexta das 9:00 até as 17:30h</li>
                 </ol>
             </section>
-            <section class="col-md-3 d-flex">
-                <ol class="ml-auto mr-auto">
+            <section class="col-md-3 col-sm-12">
+                <ol class="">
                     <h2 class="color-heading-footer">Acesso rápido</h2>
                     <li>Minha conta</li>
                     <li>Meus pedidos</li>
@@ -176,18 +162,18 @@
                     <li>Troca e devoluções</li>
                 </ol>
             </section>
-            <section class="col-md-3 d-flex">
-                <ol class="ml-auto mr-auto">
+            <section class="col-md-3 col-sm-12">
+                <ol class="">
                     <h2 class="color-heading-footer">Institucional</h2>
                     <li>Sobre a loja</li>
                     <li>Política e privacidade</li>
                 </ol>
             </section>
-            <section class="col-md-3 d-flex">
-                <ol class="ml-auto">
+            <section class="col-md-2 col-sm-12">
+                <ol class="mais-acessados">
                     <h2 class="color-heading-footer">Mais acessados</h2>
                     <li>Cropped rosa</li>
-                    <li>Camiseta manga co...</li>
+                    <li>Camiseta manga comprida</li>
                     <li>Camiseta listrada</li>
                     <li>Saia Plisada</li>
                 </ol>
