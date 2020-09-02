@@ -54,7 +54,7 @@ html, * {
 .container-header .logo-header {
   margin: 0 auto;
 }
-@media (min-width: 575px) {
+@media (max-width: 575px) {
   .container-header .logo-header {
     text-align: center;
   }
